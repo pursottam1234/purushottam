@@ -1,4 +1,9 @@
 
+body{
+  overflow-x: hidden;
+  margin:0px;
+  padding:0px;
+}
 .borderleft{
   border-left:2px solid #ccc;
 }
@@ -11,11 +16,9 @@
     padding-top:0.5%;
     padding-bottom:0.5%;
 }
-.navbar{
-  background-color:#4a154a !important;
-}
+
 .navbar a{
-  color:white !important;
+  color:blue !important;
 }
 .navbar-toggler-icon{
   background-color:white;
@@ -44,9 +47,12 @@
 color: black;
 border: 0px;
 }
+.program{
+  margin-top:3%
+}
 .asmttitle{
   text-align: center;
-  text-transform: uppercase;
+  text-transform:uppercase;
 }
 .circle{
   background-color: #4A154A;
@@ -57,6 +63,27 @@ border: 0px;
   border-radius: 150%;
   text-align: center;
 }
-.circle:hover{
-  background-color: #FFAB00;
+a{
+  text-decoration:none !important;
+}
+
+.center-align{
+  text-align:center;
+}
+.maincolor{
+  background-color:#4A154A !important;
+}
+.noborder{
+  border:none !important;
+}
+
+.feature{
+  margin-top:2%;
+}
+.hoveryellow:hover{
+  background-color:#FFAB00 !important;
+}
+
+.feature:hover{
+  box-shadow:10px 10px 5px #ccc;
 }
